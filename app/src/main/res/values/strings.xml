@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">BasePasta</string>
+
+    <string-array name="genero">
+        <item>Elija</item>
+        <item>Hombre</item>
+        <item>Mujer</item>
+    </string-array>
+</resources>
