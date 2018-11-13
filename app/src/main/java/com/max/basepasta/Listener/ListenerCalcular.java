@@ -6,7 +6,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Toast;
 
-import com.max.basepasta.Activitys.Main2Activity;
+import com.max.basepasta.Activitys.Resultados2;
 import com.max.basepasta.Activitys.MainActivity;
 import com.max.basepasta.Shared.Shared;
 
@@ -122,7 +122,7 @@ public class ListenerCalcular implements View.OnClickListener {
                 Shared.setSharedPrefenceVariables(context,"ideal_weight",ideal_weightJason);
                 Shared.setSharedPrefenceVariables(context,"risk",riskJason);
 
-                Intent intent= new Intent(context,Main2Activity.class);
+                Intent intent= new Intent(context, Resultados2.class);
                 context.startActivity(intent);
 
 
